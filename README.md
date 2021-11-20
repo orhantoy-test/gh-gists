@@ -1,3 +1,19 @@
+## GitHub Gists React App
+
+This app has a built-in proxy to the GitHub Gists API; just call `/api/gh/gists` for requests to be proxied to the GitHub Gists API.
+The proxy expects an environment variable named `GH_GISTS_ACCESS_TOKEN` with a personal access token with access to create Gists.
+
+## Installation
+
+- `npm i`
+- Create `.env.local` and specify the value for `GH_GISTS_ACCESS_TOKEN` in there.
+
+## Development
+
+- `npm start`
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
